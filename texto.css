@@ -1,0 +1,20 @@
+#contenedor p{
+color: aqua;
+}
+
+#contenedor p:first-child{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#contenedor p:last-child{
+   font-style: italic;
+   cursor: pointer;
+
+}
+/* COMENTARIOS
+un item en especifico
+even-en pares; odd -impares*/
+#contenedor p:nth-child(even){
+    color: red;
+}

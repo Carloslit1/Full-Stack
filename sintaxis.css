@@ -1,0 +1,16 @@
+h1{
+    color: violet;
+}
+
+p{
+    color: red;
+}
+
+/* aplicar asterico al que tenga el ID de p1*/
+#P1{
+     color: green;
+}
+
+.grupof{
+    color: blue;
+}

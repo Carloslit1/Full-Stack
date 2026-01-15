@@ -1,0 +1,17 @@
+#contenedor p{
+color: aqua;
+}
+
+#contenedor p:first-child{
+    color: blueviolet;
+}
+
+#contenedor p:last-child{
+    color: black;
+}
+/* COMENTARIOS
+un item en especifico
+even-en pares; odd -impares*/
+#contenedor p:nth-child(even){
+    color: bisque;
+}
